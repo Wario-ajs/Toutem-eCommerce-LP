@@ -1,3 +1,5 @@
+@import url("assets/styles/header.css");
+
 @font-face {
     font-family: "SF Pro Display";
     src: url(assets/fonts/SFPRODISPLAYBLACK.ttf);
@@ -33,4 +35,12 @@
     --verde: #5FD788;
     --azul-escuro: #1F2937;
     --fonte: "SF Pro Display";
+}
+
+body {
+    background-color: var(--branco);
+    font-family: var(--fonte);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0.5em;
 }

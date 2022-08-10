@@ -1,0 +1,66 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2.7em;
+}
+
+.header__logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.header__logo--text {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.header__menu {
+    background-color: transparent;
+    border: none;
+}
+
+.menu-hamburguer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5em;
+    width: 10em;
+
+    position: absolute;
+    top: -100vw;
+    left: 33vw;
+    transition: .25s;
+}
+
+.menu-hamburguer--ativo {
+    top: 15vw;
+    left: 33vw;
+    transition: .25s;
+}
+
+.menu-hamburguer__link {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--branco);
+    text-decoration: none;
+    background-color: var(--verde);
+    border-radius: 8px;
+}
+
+.menu-hamburguer__link--home {
+    padding: 1em 4.9em;
+}
+
+.menu-hamburguer__link--shop {
+    padding: 1em 5.4em;
+}
+
+.menu-hamburguer__link--about {
+    padding: 1em 4em;
+}
+
+.menu-hamburguer__link--contact {
+    padding: 1em 4.6em;
+}
+
