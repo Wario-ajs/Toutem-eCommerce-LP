@@ -27,3 +27,10 @@
     src: url(assets/fonts/SFPRODISPLAYREGULAR.OTF);
     font-weight: 400;
 }
+
+:root {
+    --branco: #fff;
+    --verde: #5FD788;
+    --azul-escuro: #1F2937;
+    --fonte: "SF Pro Display";
+}
