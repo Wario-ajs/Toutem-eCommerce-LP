@@ -26,17 +26,17 @@
     align-items: center;
     gap: 0.5em;
     width: 10em;
+    background-color: var(--branco);
+    width: 100vw;
 
-    position: absolute;
-    top: -100vw;
-    left: 33vw;
-    transition: .25s;
+    display: none;
+    transition: 4s;
+    
 }
 
 .menu-hamburguer--ativo {
-    top: 15vw;
-    left: 33vw;
-    transition: .25s;
+    display: flex;
+    transition: 4s;
 }
 
 .menu-hamburguer__link {

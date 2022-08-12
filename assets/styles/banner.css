@@ -1,0 +1,36 @@
+.main {
+    text-align: center;
+    padding: 1em;
+}
+
+.main__img {
+    background-image: url("../img/Ellipse\ 1.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    padding: 2.1em;
+    margin-top: 2.7em;
+}
+
+.main__img--img {
+    width: 7em;
+    height: 6.2em;    
+    padding-left: 1em;
+}
+
+.main__titulo {
+    font-family: "SF Pro Rounded";
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--verde);
+    padding: 0.6em;
+}
+
+.main__descricao {
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 17.5px;
+    color: var(--grey-400);
+    padding: 0 1em;
+}
+

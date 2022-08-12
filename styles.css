@@ -1,4 +1,5 @@
 @import url("assets/styles/header.css");
+@import url("assets/styles/banner.css");
 
 @font-face {
     font-family: "SF Pro Display";
@@ -30,10 +31,29 @@
     font-weight: 400;
 }
 
+@font-face {
+    font-family: "SF Pro Rounded";
+    src: url(assets/fonts/SF-Pro-Rounded-Semibold.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "SF Pro Rounded";
+    src: url(assets/fonts/SF-Pro-Rounded-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "SF Pro Rounded";
+    src: url(assets/fonts/SF-Pro-Rounded-Regular.ttf);
+    font-weight: 400;
+}
+
 :root {
     --branco: #fff;
     --verde: #5FD788;
     --azul-escuro: #1F2937;
+    --grey-400: #9CA3AF;
     --fonte: "SF Pro Display";
 }
 
