@@ -30,13 +30,13 @@
 
 .collection__button {
     margin: 1em;
-    padding: 1em 2em;
+    padding: 0.7em 2em;
     background-color: var(--verde);
     color: var(--branco);
     text-decoration: none;
     border-radius: 8px;
     font-family: "Quicksand";
     font-weight: 700;
-    font-size: 17px;
+    font-size: 16px;
 }
 

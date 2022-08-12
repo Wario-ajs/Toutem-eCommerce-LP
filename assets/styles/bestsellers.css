@@ -1,0 +1,106 @@
+.bestsellers {
+    padding: 1em;
+}
+
+.bestsellers__inicio {
+    background-image: url("../img/lemon_flower_1_.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 8em 0;
+    text-align: center;
+    justify-content: center;
+}
+
+.bestsellers__inicio--titulo {
+    font-family: "SF Pro Rounded";
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--verde);
+    padding: 0 0 0.5em 0;
+}
+
+.bestsellers__inicio--button {
+    display: inline-block;
+    font-family: 'Quicksand';
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--branco);
+    padding: 0.7em 5em;
+    background-color: var(--verde);
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 2em;
+}
+
+.bestsellers__produtos {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+.produtos--card--difusor {
+    background-image: url("../img/Rectangle 20.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.produtos--card--difusorlux {
+    background-image: url("../img/Rectangle 51.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bestsellers__produtos--card {
+    border-radius: 0 22px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding-top: 18em;
+    margin: 0.5em 1em 0 1em;
+}
+
+.bestsellers__produtos--card--pelicula {
+    border-radius: 0 20px;
+    padding: 1em 1em 0em 1em;
+    margin-bottom: 0.9em;
+}
+
+.produtos__card--pelicula--difusor {
+    background: rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(15px);
+}
+
+.produtos__card--pelicula--difusorlux {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(25px);
+}
+
+.bestsellers__produtos--card--linha {
+    display: flex;
+    gap: 0.6em;
+}
+
+.produtos__card--titulo {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--grey-800);
+}
+
+.produtos__card--preco {
+    font-size: 6px;
+    font-weight: 500;
+    color: var(--branco);
+    background-color: var(--verde);
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.produto__card--descricao {
+    font-size: 11px;
+    font-weight: 400;
+    color: var(--grey-500);
+    line-height: 15.4px;
+    padding-top: 1em;
+    padding-right: 3em;
+    padding-bottom: 2em;
+}
