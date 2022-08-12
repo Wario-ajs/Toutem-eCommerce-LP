@@ -1,5 +1,6 @@
 @import url("assets/styles/header.css");
 @import url("assets/styles/banner.css");
+@import url("assets/styles/categorias.css");
 
 @font-face {
     font-family: "SF Pro Display";
@@ -53,6 +54,7 @@
     --branco: #fff;
     --verde: #5FD788;
     --azul-escuro: #1F2937;
+    --grey-50: #F9FAFB;
     --grey-400: #9CA3AF;
     --fonte: "SF Pro Display";
 }
@@ -63,4 +65,8 @@ body {
     font-size: 16px;
     font-weight: 400;
     padding: 0.5em;
+}
+
+footer {
+    padding: 5em;
 }

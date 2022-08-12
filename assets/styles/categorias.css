@@ -1,0 +1,61 @@
+.categorias {
+    padding: 2.5em 1em 1em 1em;
+    text-align: center;
+}
+
+.categorias__lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6em;
+}
+
+.categorias__lista--item {
+    background-color: var(--grey-50);
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.15);
+    border-radius: 0px 20px;
+    width: 8.3em;
+    padding-top: 1em;
+    cursor: pointer;
+}
+
+.categorias__lista--img {
+    width: 3em;
+    height: 58px;
+}
+
+.categorias__lista--img-oleos {
+    background-image: url("../img/blob-oleos.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.categorias__lista--img-cosmeticos {
+    background-image: url("../img/cosmeticos-blob.svg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.categorias__lista--img-difusores {
+    background-image: url("../img/difusores-blob.svg");
+    background-position: center;
+    background-size: 3em;
+    background-repeat: no-repeat;
+}
+
+.categorias__lista--img-aromatizadores {
+    background-image: url("../img/aromatizadores-Blob.svg");
+    background-position: center;
+    background-size: 3em;
+    background-repeat: no-repeat;
+}
+
+.categorias__lista--titulo {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--verde);
+    padding-top: 0.8em;
+    padding-bottom: 1.3em;
+}
