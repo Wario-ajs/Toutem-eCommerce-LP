@@ -1,6 +1,7 @@
 @import url("assets/styles/header.css");
 @import url("assets/styles/banner.css");
 @import url("assets/styles/categorias.css");
+@import url("assets/styles/collection.css");
 
 @font-face {
     font-family: "SF Pro Display";

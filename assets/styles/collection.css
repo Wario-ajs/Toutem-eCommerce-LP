@@ -1,0 +1,42 @@
+.collection {
+    padding: 5em 1em 2em 1em; 
+    text-align: center;
+}
+
+.collction__img {
+    height: 10em;
+    background-image: url("../img/Blob.svg");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.collection__titulo {
+    font-family: "SF Pro Rounded";
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 21.5px;
+    color: var(--verde);
+    padding: 1em;
+}
+
+.collection__descricao {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--grey-400);
+    padding: 0 1em 3em 1em;
+    line-height: 18.8px;
+}
+
+.collection__button {
+    margin: 1em;
+    padding: 1em 2em;
+    background-color: var(--verde);
+    color: var(--branco);
+    text-decoration: none;
+    border-radius: 8px;
+    font-family: "Quicksand";
+    font-weight: 700;
+    font-size: 17px;
+}
+
