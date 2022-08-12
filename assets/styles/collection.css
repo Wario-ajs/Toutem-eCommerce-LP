@@ -22,7 +22,7 @@
 
 .collection__descricao {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     color: var(--grey-400);
     padding: 0 1em 3em 1em;
     line-height: 18.8px;
