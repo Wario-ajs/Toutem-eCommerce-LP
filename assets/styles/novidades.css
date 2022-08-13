@@ -1,0 +1,36 @@
+.novidades {
+    padding: 0.5em;
+}
+
+.novidades__inicio {
+    background-image: url("../img/Visual - Flower.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 8em 0 2em 0;
+}
+
+.novidades__inicio--div {
+    text-align: center;
+}
+
+.novidades__titulo {
+    font-family: "SF Pro Rounded";
+    font-size: 36px;
+    font-weight: 600;
+    padding: 1em;
+    color: var(--verde);
+}
+
+.novidades__button {
+    display: inline-block;
+    font-family: 'Quicksand';
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--branco);
+    padding: 0.7em 5em;
+    background-color: var(--verde);
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 2em;
+}
+
