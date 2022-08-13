@@ -3,6 +3,7 @@
 @import url("assets/styles/categorias.css");
 @import url("assets/styles/collection.css");
 @import url("assets/styles/bestsellers.css");
+@import url("assets/styles/sabao.css");
 
 @font-face {
     font-family: "SF Pro Display";
@@ -67,7 +68,6 @@ body {
     font-family: var(--fonte);
     font-size: 16px;
     font-weight: 400;
-    padding: 0.5em;
 }
 
 footer {
