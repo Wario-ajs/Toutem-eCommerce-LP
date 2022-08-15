@@ -1,7 +1,13 @@
 .header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 1em 2.7em;
+}
+
+.header__icon,
+.header__nav {
+    display: none;
 }
 
 .header__logo {
@@ -63,3 +69,35 @@
     padding: 1em 4.6em;
 }
 
+@media screen and (min-width: 768px) {
+    .header {
+        padding: 1.7em 2.7em;
+    }
+    
+    .header__nav {
+        display: flex;
+        gap: 1em;
+    }
+
+    .header__item--link {
+        font-size: 13px;
+        font-weight: 600;
+        text-decoration: none;
+        color: var(--grey-800);
+    }
+
+    .header__icon {
+        display: flex;
+        gap: 0.5em;
+    }
+
+    .header__icon-bag,
+    .header__icon-lupa {
+        padding: 0.15em;
+    }
+
+    .header__menu {
+        display: none;
+        padding: 1em;
+    }
+}
