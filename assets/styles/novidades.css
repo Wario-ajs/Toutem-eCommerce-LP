@@ -1,12 +1,15 @@
 .novidades {
-    padding: 0.5em;
+    padding: 1em;
 }
 
-.novidades__inicio {
+.novidades__container {
     background-image: url("../img/Visual - Flower.png");
-    background-position: center;
+    background-position:top;
     background-repeat: no-repeat;
-    padding: 8em 0 2em 0;
+    padding: 10em 0 2em 0;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
 }
 
 .novidades__inicio--div {
@@ -17,7 +20,7 @@
     font-family: "SF Pro Rounded";
     font-size: 36px;
     font-weight: 600;
-    padding: 1em;
+    padding: 1em 1em 1em 1em;
     color: var(--verde);
 }
 
@@ -31,6 +34,48 @@
     background-color: var(--verde);
     text-decoration: none;
     border-radius: 8px;
-    margin-bottom: 2em;
+    margin-bottom: 6em;
+}
+
+.produtos--card--cesta {
+    background-image: url("../img/Rectangle 57.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.produtos--card--sabonete {
+    background-image: url("../img/Rectangle 58.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.novidades__produtos--card {
+    border-radius: 0 22px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    padding-top: 15em;
+    margin: 0.5em 1em 1em 1em;
+}
+
+.novidades__produtos--card--pelicula {
+    border-radius: 0 20px;
+    padding: 1.5em 1em 0em 1em;
+    margin-bottom: 1.2em;
+}
+
+.produtos__card--pelicula--cesta {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(25px);
+}
+
+.produtos__card--pelicula--sabonete {
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(25px);
+}
+
+.novidades__produtos--card--linha {
+    display: flex;
+    gap: 0.6em;
 }
 
