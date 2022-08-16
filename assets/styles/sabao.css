@@ -27,3 +27,21 @@
     size: 16px;
     text-decoration: none;
 }
+
+@media screen and (min-width: 768px) {
+    .sabao {
+        background-image: url("../img/Soaps (1).png");
+        background-repeat: no-repeat;
+        text-align: left;
+        padding: 7em 0;
+    }
+
+    .sabao__titulo {
+        padding-left: 1em;
+        padding-right: 10em;
+    }
+
+    .sabao__button {
+        margin-left: 2em;
+    }
+}

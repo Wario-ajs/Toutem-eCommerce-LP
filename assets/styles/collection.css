@@ -45,6 +45,7 @@
         display: flex;
         padding-top: 1em;
         padding-bottom: 5em;
+        margin-bottom: 5em;
         justify-content: end;
         text-align: right;
         background-image: url("../img/Photo2.png");
