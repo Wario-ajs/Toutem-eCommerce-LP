@@ -79,3 +79,15 @@
     gap: 0.6em;
 }
 
+@media screen and (min-width: 768px) {
+    .novidades {
+        padding: 1em 0;
+        background-image: url("../img/Frame3.png");
+        background-repeat: no-repeat;
+    }
+    
+    .novidades__container {
+        background-image: none;
+        padding: 0.5em 12em;
+    }
+}
