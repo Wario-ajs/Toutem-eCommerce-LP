@@ -65,7 +65,7 @@
     --grey-500: #6B7280;
     --grey-600: #4B5563;
     --grey-800: #1F2937;
-    --fonte: "SF Pro Display";
+    --fonte: 'SF Pro Display';
 }
 
 body {
