@@ -40,3 +40,33 @@
     font-size: 16px;
 }
 
+@media screen and (min-width: 728px) {
+    .collection {
+        display: flex;
+        padding-top: 1em;
+        padding-bottom: 5em;
+        justify-content: end;
+        text-align: right;
+        background-image: url("../img/Photo2.png");
+        background-repeat: no-repeat;
+    }
+
+    .collection__img {
+        display: none;
+    }
+
+    .collection__titulo {
+        font-size: 38px;
+        font-weight: 500;
+        line-height: 107.9%;
+        padding: 4.8em 0.5em 0.5em 2em;
+    }
+
+    .collection__descricao {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 140%;
+        padding-left: 30em;
+    }
+
+}
