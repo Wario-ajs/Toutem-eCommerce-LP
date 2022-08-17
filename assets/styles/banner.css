@@ -32,41 +32,37 @@
 
 .main__descricao {
     font-size: 13px;
-    font-weight: 600;
-    line-height: 17.5px;
+    font-weight: 400;
+    line-height:140%;
     color: var(--grey-400);
     padding: 0 1em;
 }
 
 @media screen and (min-width: 768px) {
     .main {
-        display: flex;
-        flex-direction: row-reverse;
-        text-align: start;
-        padding: 0;
-    }
-
-    .main__titulo {
-        font-size: 96px;
-        font-weight: 600;
-        line-height: 86.24px;
-        padding: 2.5em 0 0.2em 0.5em;
-    }
-
-    .main__descricao {
-        font-size: 13px;
-        line-height: 140%;
-        font-weight: 400;
-        padding-left: 4em;
+        background-image: url("../img/Photo1.png");
+        background-position: right;
+        background-repeat: no-repeat;
+        text-align: left;
+        padding: 0em 0 3em 0;
     }
 
     .main__img {
         display: none;
     }
 
-    .main__img-tablet {
-        display: flex;
-        width: 325px;
-        height: 535px;
+    .main__text {
+        padding: 10em 0 0.3em 2em;
+    }
+
+    .main__titulo {
+        font-size: 86px;
+        font-weight: 500;
+        line-height: 89.84%;
+        padding-bottom: 0.3em;
+    }
+
+    .main__descricao {
+        padding: 0 27em 1em 4.5em;
     }
 }
