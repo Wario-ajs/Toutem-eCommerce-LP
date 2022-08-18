@@ -91,3 +91,18 @@
         padding: 0.5em 12em;
     }
 }
+
+@media screen and (min-width: 768px) {
+    .novidades__titulo {
+        font-size: 46px;
+        padding-bottom: 0.5em;
+    }
+
+    .novidades__container {
+        padding: 0.5em 20em;
+    }
+
+    .novidades__produtos--card {
+        cursor: pointer;
+    }
+}
