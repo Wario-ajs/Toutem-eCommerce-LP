@@ -75,6 +75,7 @@
     .collection {
         padding-bottom: 10em;
         padding-right: 2em;
+        margin-bottom: 1em;
     }
 
     .collection__titulo {
