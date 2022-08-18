@@ -55,3 +55,9 @@
         padding-bottom: 2em;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .blog {
+        padding: 1em 23em;
+    }
+}
