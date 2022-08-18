@@ -45,3 +45,9 @@
         margin-left: 2em;
     }
 }
+
+@media screen and (min-width: 1024px) {
+    .sabao__titulo {
+        padding-right: 13em;
+    }
+}
