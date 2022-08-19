@@ -87,3 +87,54 @@
         width: max-content;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .categorias {
+        padding: 2.5em 1em;
+        text-align: center;
+    }
+
+    .categorias__lista--item {
+        padding: 4em;
+    }
+
+    .categorias__lista--img {
+        width: 5em;
+        height: 90px;
+    }
+
+    .categorias__lista--img-oleos {
+        background-image: url("../img/blob-oleos.png");
+        background-position: center;
+        background-size: 5em;
+        background-repeat: no-repeat;
+    }
+
+    .categorias__lista--img-cosmeticos {
+        background-image: url("../img/blob-oleos.png");
+        background-position: center;
+        background-size: 6em;
+        background-repeat: no-repeat;
+    }
+
+    .categorias__lista--img-difusores {
+        background-image: url("../img/blob-oleos.png");
+        background-position: center;
+        background-size: 5em;
+        background-repeat: no-repeat;
+    }
+
+    .categorias__lista--img-aromatizadores {
+        background-image: url("../img/blob-oleos.png");
+        background-position: center;
+        background-size: 5em;
+        background-repeat: no-repeat;
+    }
+
+    .categorias__lista--titulo {
+        font-size: 17px;
+    }
+}
+
+
+
