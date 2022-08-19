@@ -87,3 +87,18 @@
     }
 }
 
+@media screen and (min-width: 1024px) {
+    .collection {
+        background-image: url("../img/Photo6.png");
+        padding: 10em 1em 7.5em 12em;
+    }
+
+    .collection__titulo {
+        font-size: 50px;
+    }
+
+    .collection__descricao {
+        font-size: 15px;
+        padding-left: 46em;
+    }
+}
