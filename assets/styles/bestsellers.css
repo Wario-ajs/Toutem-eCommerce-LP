@@ -132,3 +132,56 @@
         padding: 0 20em;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .bestsellers__linha {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 4em 1em 0 1em;
+        margin-top: 1em;
+    }
+
+    .bestsellers__inicio {
+        padding-left: 5em;
+    }
+
+    .bestsellers__inicio--titulo {
+        font-size: 50px;
+    }
+
+    .bestsellers__inicio--button {
+        font-size: 16px;
+    }
+
+    .bestsellers__produtos {
+        flex-direction: row;
+        padding-right: 1em;
+        padding-left: 1em;
+        gap: 0;
+    }
+
+    .bestsellers__produtos--card {
+        border-radius: 0 22px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        padding-top: 17em;
+        margin: 0.5em 1em 0 1em;
+    }
+
+    .bestsellers__produtos--card--pelicula {
+        background-image: url("../img/Add to Cart.svg");
+        background-repeat: no-repeat;
+        background-position: 18.3em;
+        background-size: 2.7em;
+        cursor: pointer;
+    }
+
+    .produto__card--descricao {
+        padding-right: 4em;
+    }
+
+    .bestsellers__more {
+        padding-left: 63em;
+        cursor: pointer;
+    }
+}
