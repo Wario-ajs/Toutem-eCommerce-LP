@@ -89,6 +89,7 @@
     .header__icon {
         display: flex;
         gap: 0.5em;
+        cursor: pointer;
     }
 
     .header__icon-bag,
