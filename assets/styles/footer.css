@@ -40,3 +40,24 @@
     line-height: 135%;
 }
 
+@media screen and (min-width: 1440px) {
+    .rodape {
+        display: block;
+    }
+
+    .rodape__container {
+        display: flex;
+        justify-content: flex-start;
+        gap: 4em;
+        padding-bottom: 4em;
+    }
+
+    .rodape__logo {
+        align-self: flex-start;
+        padding: 0 26em 0 2.5em;
+    }
+
+    .rodape__lista--item {
+        cursor: pointer;
+    }
+}
