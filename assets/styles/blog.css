@@ -61,3 +61,35 @@
         padding: 1em 23em;
     }
 }
+
+@media screen and (min-width: 1440px) {
+    .blog {
+        display: flexbox;
+        gap: 0;
+        padding: 4em 6.3em 0 6.3em;
+    }
+
+    .blog__titulo {
+        padding: 0;
+    }
+
+    .blog__card--container {
+        display: flex;
+        gap: 1.5em;
+    }
+
+    .blog__card {
+        padding-bottom: 1em;
+    }
+
+    .blog__card--titulo {
+        font-size: 20px;
+        line-height: 140%;
+        cursor: pointer;
+    }
+
+    .blog__card--texto {
+        font-size: 16px;
+        line-height: 150%;
+    }
+}
