@@ -1,7 +1,7 @@
 # Toutem-eCommerce-LP
 Criado para o desenvolvimento do projeto Toutem (landing page de produtos naturais), para pratica de tecnologias como html/css e Javascript.
 
-[Link do projeto no Vercel](https://toutem-e-commerce-lp.vercel.app/)
+###Deploy: [Link do projeto no Vercel](https://toutem-e-commerce-lp.vercel.app/)
 
 ## Guia de estilos
 
@@ -45,6 +45,6 @@ grey-800: `#1F2937`
 
 ## Layout Mobile Fisrt - (min-Width):
 
-:iphone:`Mobile: 375px` `Table: 768px`
+:iphone: `Mobile: 375px` `Table: 768px`
 
 :computer:`Laptop: 1024px` `Desktop: 1440px`
