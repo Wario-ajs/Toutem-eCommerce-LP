@@ -45,10 +45,6 @@ grey-800: `#1F2937`
 
 ## Layout Mobile Fisrt - (min-Width):
 
-`Mobile: 375px`
+:iphone:`Mobile: 375px` `Table: 768px`
 
-`Table: 768px`
-
-`Laptop: 1024px`
-
-`Desktop: 1440px`
+:computer:`Laptop: 1024px` `Desktop: 1440px`
