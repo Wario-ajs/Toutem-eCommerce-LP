@@ -1,4 +1,7 @@
 # Toutem-eCommerce-LP
+
+![GitHub repo size](https://img.shields.io/github/repo-size/Wario-ajs/Toutem-eCommerce-LP?style=flat-square) ![GitHub repo file count](https://img.shields.io/github/directory-file-count/Wario-ajs/Toutem-eCommerce-LP?style=flat-square) 
+
 Criado para o desenvolvimento do projeto Toutem (landing page de produtos naturais), para pratica de tecnologias como html/css e Javascript.
 
 ###Deploy: [Link do projeto no Vercel](https://toutem-e-commerce-lp.vercel.app/)
