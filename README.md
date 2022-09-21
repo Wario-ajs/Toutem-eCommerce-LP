@@ -1,6 +1,6 @@
 # Toutem-eCommerce-LP
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Wario-ajs/Toutem-eCommerce-LP?style=flat-square) ![GitHub repo file count](https://img.shields.io/github/directory-file-count/Wario-ajs/Toutem-eCommerce-LP?style=flat-square) 
+![GitHub repo size](https://img.shields.io/github/repo-size/Wario-ajs/Toutem-eCommerce-LP?style=flat-square) ![GitHub repo file count](https://img.shields.io/github/directory-file-count/Wario-ajs/Toutem-eCommerce-LP?style=flat-square) ![GitHub last commit](https://img.shields.io/github/last-commit/Wario-ajs/Toutem-eCommerce-LP?style=flat-square)
 
 Criado para o desenvolvimento do projeto Toutem (landing page de produtos naturais), para pratica de tecnologias como html/css e Javascript.
 
